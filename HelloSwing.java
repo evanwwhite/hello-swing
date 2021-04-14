@@ -38,7 +38,7 @@ public class HelloSwing extends JFrame implements ActionListener
 		label = new JLabel (labelMessage + "0 ");
 		
 		//construct JPanel component
-		pane = new JPanel();
+		pane = new JPanel();                        // Top, left, bottom, right
 		pane.setBorder(BorderFactory.createMatteBorder(25, 25, 25, 25, Color.green));
 		pane.setLayout(new GridLayout(0, 1));
 		
